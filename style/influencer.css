@@ -117,3 +117,66 @@
     font-size: var(--secondary-des-size);
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav > h3 {
+    font-size: 1.2rem;
+  }
+
+  .nav > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .start-journey {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+   
+  }
+  
+  .start-journey-img {
+    width: 100%;
+  
+  }
+
+  .bg-head {
+    background-position: center;
+   background-size: 300px 300px;
+   background-position: 50% 35%;
+   
+  }
+
+  
+}
+  
