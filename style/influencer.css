@@ -207,32 +207,36 @@
     margin-right: 230px;
 }
 
-.features-products{
+/* style features products section */
+
+.features-products {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 80px;
     place-items: center;
- 
-   padding: 0 180px;
+
+    padding: 0 180px;
 }
-.features-product-content>h3{
-font-family: var(--font-family);
-font-size: 2.2rem;
-font-weight: 700;
-margin-bottom: 10px;
+
+.features-product-content>h3 {
+    font-family: var(--font-family);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
 
 }
 
-.features-product-content>p{
+.features-product-content>p {
     color: rgb(108, 108, 108);
-font-family: var(--font-family);
-font-size: 1rem;
-font-weight: 700;
-margin-bottom: 10px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
 
 
 }
-.btn-features{
+
+.btn-features {
     background-color: var(--btn-backgroud);
     padding: 10px 20px;
     color: aliceblue;
@@ -242,18 +246,22 @@ margin-bottom: 10px;
 
 }
 
-.footer{
+
+/* style footer section */
+
+.footer {
     margin-top: 80px;
-   background-color: rgb(31, 28, 28);
-  padding: 60px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  color: aliceblue;
-  
+    background-color: rgb(31, 28, 28);
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: aliceblue;
+
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -326,20 +334,22 @@ margin-bottom: 10px;
     .sponsor-content {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        
-        
+
+
 
     }
-    .btn{
-       width: 80%;
-       
-       
-       
+
+    .btn {
+        width: 80%;
+
+
+
     }
-    .features-products{
-        grid-template-columns: repeat(1,1fr);
+
+    .features-products {
+        grid-template-columns: repeat(1, 1fr);
 
         justify-content: center;
     }
-   
+
 }
